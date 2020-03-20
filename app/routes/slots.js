@@ -3,6 +3,6 @@ import { fetch } from 'fetch';
 
 export default class SlotsRoute extends Route {
   model() {
-    // return this.store.findAll('slot');
+    return this.store.findAll('slot');
   }
 }
