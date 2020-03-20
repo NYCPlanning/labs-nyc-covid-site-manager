@@ -20,7 +20,14 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+
+    fontawesome: {
+      icons: {
+        'free-regular-svg-icons': 'all',
+        'free-solid-svg-icons': 'all',
+      },
+    },
   };
 
   if (environment === 'development') {
